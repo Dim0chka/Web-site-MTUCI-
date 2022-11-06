@@ -37,3 +37,13 @@ function closeOnClick() {
   hamb.classList.remove("active");
   body.classList.remove("noscroll");
 }
+
+// slider
+
+document.addEventListener('DOMContentLoaded', function () {
+  // инициализация слайдера
+  var slider = new SimpleAdaptiveSlider('.slider', {
+    autoplay: true,
+    interval: 2000,
+  });
+});
