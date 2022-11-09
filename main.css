@@ -33,7 +33,7 @@ body {
 /* header */
 
 .navbar {
-  border-bottom: 1px solid #6B57AE;
+  border-bottom: 3px solid #6B57AE;
   position: absolute;
   left: 0;
   top: 0;
@@ -155,7 +155,6 @@ body {
 }
 
 .about p {
-  text-align: justify;
   color: rgb(199, 199, 199);
 }
 
@@ -164,11 +163,11 @@ body {
   border: 3px solid #6B57AE;
   color: white;
   border-radius: 2rem;
-  text-align: justify;
+  text-align: left;
 }
 
 .block-1 {
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
 
 .block-1 h2 {
@@ -179,6 +178,10 @@ body {
 
 .block-1 p, .block-2 p {
   color: rgb(199, 199, 199);
+}
+
+.block-2 ul {
+  list-style-type: square;
 }
 
 .block-2 h3 {
