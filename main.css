@@ -33,7 +33,7 @@ body {
 /* header */
 
 .navbar {
-  border-bottom: 3px solid #6B57AE;
+  border-bottom: 1px solid #6B57AE;
   position: absolute;
   left: 0;
   top: 0;
@@ -139,6 +139,7 @@ body {
 }
 
 .about h2 {
+  margin-bottom: 40px;
   font-weight: 400;
   display: inline-block;
   position: relative;
@@ -159,6 +160,7 @@ body {
 }
 
 .about-2 {
+  margin-bottom: 40px;
   padding: 5px 10px;
   border: 3px solid #6B57AE;
   color: white;
@@ -186,6 +188,75 @@ body {
 
 .block-2 h3 {
   font-weight: 400;
+}
+
+/* contact */
+
+.flex-card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card {
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  width: 260.667px;
+}
+
+.item {
+  border: 3px solid #6B57AE;
+  border-radius: 1rem;
+  background: white;
+  position: relative;
+  text-align: center;
+  margin-top: 65px;
+  padding: 80px 0 55px;
+  color: #5b5b5b;
+}
+
+.item img {
+  border: 5px solid #6B57AE;
+  background: #fff;
+  border-radius: 50%;
+  width: 125px;
+  height: 125px;
+  position: absolute;
+  top: -61px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+/* aside */
+
+.marquee-container{
+  border-top: 5px solid #111;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+
+.marquee{
+  font-weight: 400;
+  font-size: 50px;
+  text-align:center;
+  color: white;
+  animation: text 7s infinite linear;
+  padding-left: 100%;
+  white-space: nowrap;
+}
+
+@keyframes text {
+  0%{
+    transform: translate(0, 0);
+  }
+  
+  100%{
+    transform: translate(-100%, 0);
+  }
 }
 
 /* adaptability */
