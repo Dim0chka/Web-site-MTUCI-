@@ -139,7 +139,6 @@ body {
 }
 
 .about h2 {
-  margin-bottom: 40px;
   font-weight: 400;
   display: inline-block;
   position: relative;
@@ -190,43 +189,37 @@ body {
   font-weight: 400;
 }
 
-/* contact */
+.contact h2 {
+  margin-bottom: 4rem;
+}
 
 .flex-card {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
+  margin-bottom: 4rem;
 }
 
 .card {
-  margin-bottom: 20px;
-  flex-wrap: wrap;
-  width: 260.667px;
+  height: 0%;
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(255,255,255,0.2);
+  transition: 0.3s;
+  width: 45%;
 }
 
-.item {
-  border: 3px solid #6B57AE;
-  border-radius: 1rem;
-  background: white;
-  position: relative;
-  text-align: center;
-  margin-top: 65px;
-  padding: 80px 0 55px;
-  color: #5b5b5b;
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(107,87,174,0.5);
 }
 
-.item img {
-  border: 5px solid #6B57AE;
-  background: #fff;
-  border-radius: 50%;
-  width: 125px;
-  height: 125px;
-  position: absolute;
-  top: -61px;
-  left: 50%;
-  transform: translateX(-50%);
+.container {
+  padding: 2px 16px;
 }
+
+.flex-card p {
+  color: rgb(199, 199, 199);
+}
+
 
 
 /* aside */
@@ -347,14 +340,26 @@ body {
     }
   }
 
-  @media (max-width: 750px) {
-    .content h1 {
-      font-size: 2.7rem;
-    }
+@media (max-width: 750px) {
+  .content h1 {
+    font-size: 2.7rem;
   }
 
-  @media (max-width: 500px) {
-    .content h1 {
-      font-size: 1.7rem;
-    }
+  .marquee{
+    animation: text 10s infinite linear;
   }
+}
+
+@media (max-width: 500px) {
+  .content h1 {
+
+    font-size: 1.7rem;
+  }
+
+}
+
+@media (max-width: 400px) {
+  .card {
+    font-size: 12px;
+  }
+}
