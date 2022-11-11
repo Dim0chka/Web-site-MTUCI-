@@ -220,7 +220,13 @@ body {
   color: rgb(199, 199, 199);
 }
 
+.card h4 {
+  font-weight: 400;
+}
 
+.card p {
+  font-weight: 200;
+}
 
 /* aside */
 
