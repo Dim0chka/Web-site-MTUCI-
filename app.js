@@ -47,3 +47,4 @@ document.addEventListener('DOMContentLoaded', function () {
     interval: 5000,
   });
 });
+
