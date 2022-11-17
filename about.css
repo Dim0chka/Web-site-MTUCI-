@@ -90,7 +90,7 @@ figure h3::after {
 }
 
 .card {
-    border-radius: 1rem;
+    border-radius: .5rem;
     width: 40%;
     box-shadow: 0 8px 16px 0 rgba(188,187,187,0.1);
     /* border: 1px solid #f9f8f9; */
@@ -107,9 +107,6 @@ figure h3::after {
     display: block; /* Убираем небольшой отступ снизу */
 }
 
-.scale img:hover {
-    transform: scale(1.1); /* Увеличиваем масштаб */
-}
 
 
 .card:hover {
