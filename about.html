@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="about.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4a7b9d628b.js" crossorigin="anonymous"></script>
+    <title>Штаб МТУСИ</title>
+</head>
+<body>
+  <header class="navbar">
+      <div class="container">
+        <nav class="navbar__wrap">
+          <div class="hamb">
+            <div class="hamb__field" id="hamb">
+              <span class="bar"></span> <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </div>
+          <a href="#" class="logo" id="logo">
+              <img width="200" height="80" src="logo/logo_mtuci-01.png" alt="">
+          </a>
+          <ul class="menu" id="menu">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="#">РСО</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+  </header>
+  <div class="popup" id="popup"></div>
+
+  <main class="main_info2">
+    <div class="container">
+      <h1>Отряды</h1>
+      <section class="connection">
+        <div class="title">
+          <img src="logo/logo_svyaz-01.png" width="100" height="100" alt="">
+          <h2>СПО <span style="color: #5F54F9;">&laquo;Связь&raquo;</span>&nbsp;| <a href="">МТУСИ</a></h2>
+        </div>
+        <figure>
+          <img class="img_connection"src="img/connection_1.jpg" alt="">
+          <figcaption>
+            <h3>О нас</h3>
+            <p>
+              СПО &laquo;Связь&raquo;&nbsp;&mdash; вожатые, которые всегда на&nbsp;связи и&nbsp;готовы ворваться на&nbsp;любой движ. Бойцы отряда уже на&nbsp;протяжении двух лет работают в&nbsp;лагерях, заряжаясь атмосферой детства и&nbsp;беззаботности.
+            </p>
+          </figcaption>
+        </figure>
+        <section class="card-info">
+          <h3>Командный <span style="color: #5F54F9;">состав</span></h3>
+          <div class="flex-card">
+            <div class="card">
+              <div class="scale">
+                <a href="">
+                  <img class="img" src="avatar/igor.jpg" alt="Avatar">
+                </a>
+              </div>
+              <div class="container1">
+                <h4>Игорь Лузянин</h4> 
+                <p>Командир</p> 
+              </div>
+            </div>
+            <div class="card">
+              <div class="scale">
+                <a href="">
+                  <img class="img" src="avatar/alesha.jpg" alt="Avatar">
+                </a>
+              </div>
+              <div class="container1">
+                <h4>Алексей Фартуков</h4> 
+                <p>Комиссар</p> 
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <section class="links">
+        <h3>Контакты</h3>
+        <!-- Put this script tag to the <head> of your page -->
+        <script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
+
+        <!-- Put this div tag to the place, where the Group block will be -->
+        <div id="vk_groups"></div>
+        <script type="text/javascript">
+          VK.Widgets.Group("vk_groups", {mode: 1, width:"auto", height: 900, color1: "15201F", color2: "00000", color3: "5F54F9"}, 198529818);
+        </script>
+      </section>
+
+
+      </section>
+    </div>
+  </main>
+
+
+  <aside>
+    <div class="marquee-container">
+      <p class="marquee">
+        СПО «Связь» - ССервО «Контакт» - СОП «БАМ» - ОСД «Путь» - IT ОТРЯД
+      </p>
+    </div>
+  </aside>
+
+  <footer>
+    <div class="container">
+      <div class="flex-footer">
+        <ul class="social">
+          <li class="social_link telegram">
+            <a href="https://t.me/so_mtuci" target="_blank">
+              <i class="fa-brands fa-telegram"></i>
+            </a>
+          </li>
+
+          <li class="social_link vk">
+            <a href="https://vk.com/so.mtuci" target="_blank">
+              <i class="fa-brands fa-vk"></i> 
+            </a>
+          </li>
+        </ul>
+        <nav class="navbar_footer">
+          <ul class="menu1">
+            <li><a href="#">Отряды</a></li>
+            <li><a href="#">РСО</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
+
+        <p>&copy; Все права защищены | разработчик <a href="https://github.com/Dim0chka"><b>Dim0chka</b></a></p>
+      </div>
+
+          
+    </div>
+  </footer>
+    
+<script src="app.js"></script>
+</body>
+</html>
