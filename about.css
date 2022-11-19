@@ -21,7 +21,13 @@ figcaption {
     margin-bottom: 50px;
 }
 
+figcaption p {
+    padding-left: 10px;
+    border-left: 3px solid #5F54F9;
+}
+
 .connection {
+    margin-bottom: 80px;
     background-color: #15201F;
     border-radius: 2rem;
     padding: 20px 30px;
@@ -64,7 +70,6 @@ figure h3 {
     color: #F9F8F9;
     font-weight: 400;
 }
-
 
 figure h3::after {
     content: "";
@@ -137,13 +142,33 @@ figure h3::after {
     position: absolute;
 }
 
-.grope_vk {
-    width: 100%;
-    max-width: 800px;
-    text-align: center;
-    align-items: center;
+/* contact */
+
+.contact_crew {
+    color: white;
+    background-color: #6A5D44;
+    box-shadow: 0 4px 8px 0 rgba(76,69,51,0.9);
 }
 
+.color_after::after {
+    background-color: gray;
+}
+
+.card_hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1);
+}
+
+.card_hover:hover {
+    box-shadow: 0 8px 16px 0 rgba(128,128,128,0.5);
+}
+
+.links .color_after::after {
+    background-color: gray;
+}
+
+.vk_group {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1);
+}
 
 @media (max-width: 750px) {
     .main_info2 h1 {
