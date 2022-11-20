@@ -174,7 +174,8 @@ figure h3::after {
 /* bam crew */
 .bam_crew {
     color: #000;
-    background-color: rgb(235, 235, 235);
+    /* background-color: rgb(235, 235, 235); */
+    background-color: #A1A09A;
     box-shadow: 0 8px 16px 0 rgba(238,113,23,0.5);
 }
 

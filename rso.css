@@ -1,0 +1,90 @@
+.main_info3 {
+    margin: 125px 0px 40px;
+}
+
+.title_3 h1 {
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+
+dl dt {
+    margin-top: 15px;
+    font-weight: 400;
+    display: inline-block;
+    position: relative;
+}
+
+dl dt::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    border-radius: 2rem;
+    background-color: #6B57AE;
+    position: absolute;
+}
+
+dl dd {
+    border-left: 3px solid #6753A7;
+    padding-left: 10px; padding-top: 10px;
+    color: rgb(199, 199, 199);
+}
+
+dl dd a {
+    color: rgb(199, 199, 199);
+}
+
+.about_rso {
+    margin-bottom: 40px;
+    padding: 5px 10px;
+    display: inline-block;
+    position: relative;
+    /* border-top: 3px solid #6B57AE;
+    border-bottom: 3px solid #6B57AE; */
+    color: white;
+    /* border-radius: 2rem; */
+    text-align: left;
+}
+
+.about_rso::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    border-radius: 2rem;
+    background-color: #6B57AE;
+    position: absolute;
+}
+
+.about_rso::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    border-radius: 2rem;
+    background-color: #6B57AE;
+    position: absolute;
+}
+
+.crew_rso {
+    display: inline-block;
+    position: relative;
+}
+/* 
+.article_rso {
+    display: inline-block;
+    position: relative;
+}
+
+.article_rso::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    border-radius: 2rem;
+    background-color: #6B57AE;
+    position: absolute;
+} */
