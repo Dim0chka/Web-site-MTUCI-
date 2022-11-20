@@ -206,6 +206,34 @@ figure h3::after {
     background-color: #EE7117;
 }
 
+/* way crew */
+
+.way_crew {
+    background-color: #01143E;
+    box-shadow: 0 8px 16px 0 rgba(181,1,23,0.5);
+}
+
+.title .MTUCI_hover_2:hover {
+    color: #B50117;
+}
+
+.color_after2::after {
+    background-color: #B50117;
+}
+
+.card_hover2 {
+    box-shadow: 0 8px 16px 0 rgba(255,255,255,0.1);   
+}
+
+.card_hover2:hover {
+    box-shadow: 0 8px 16px 0 rgba(181,1,23,0.5);
+}
+
+.links .color_after_2::after {
+    background-color: #B50117;
+}
+
+
 
 @media (max-width: 750px) {
     .main_info2 h1 {
