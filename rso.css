@@ -37,6 +37,12 @@ dl dd a {
     color: rgb(199, 199, 199);
 }
 
+.block-rso h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
 .about_rso {
     margin-bottom: 40px;
     padding: 5px 10px;
