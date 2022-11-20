@@ -1,5 +1,5 @@
 .main_info2 {
-    margin: 125px 0px 40px;
+    margin: 125px 0px 60px;
 }
 
 .main_info2 h1 {
@@ -21,17 +21,12 @@ figcaption {
     margin-bottom: 50px;
 }
 
-figcaption p {
-    padding-left: 10px;
-    border-left: 3px solid #5F54F9;
-}
-
 .connection {
-    margin-bottom: 80px;
+    margin-bottom: 100px;
     background-color: #15201F;
     border-radius: 2rem;
     padding: 20px 30px;
-    box-shadow: 0 4px 8px 0 rgba(95,84,249,0.5);
+    box-shadow: 0 0 70px rgba(95,84,249,0.5);
 }
 
 .title {
@@ -82,9 +77,31 @@ figure h3::after {
 }
 
 .card-info {
+    display: inline-block;
+    position: relative;
     margin-bottom: 20px;
-    border: 3px solid #5F54F9;
-    border-radius: 1rem;
+    /* border: 3px solid #5F54F9; */
+    /* border-radius: 1rem; */
+}
+
+.card-info::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    border-radius: 2rem;
+    background-color: #5F54F9;
+    position: absolute;
+}
+
+.card-info::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    border-radius: 2rem;
+    background-color: #5F54F9;
+    position: absolute;
 }
 
 .card-info h3 {
@@ -97,7 +114,7 @@ figure h3::after {
 .card {
     border-radius: .5rem;
     width: 40%;
-    box-shadow: 0 8px 16px 0 rgba(188,187,187,0.1);
+    box-shadow: 0 8px 16px 0 rgba(255,255,255,0.1);
     /* border: 1px solid #f9f8f9; */
 }
 
@@ -108,8 +125,8 @@ figure h3::after {
 
 .scale img {
     border-radius: 0.5rem;
-    transition: 1s; /* Время эффекта */
-    display: block; /* Убираем небольшой отступ снизу */
+    transition: 1s; 
+    display: block; 
 }
 
 
@@ -129,7 +146,7 @@ figure h3::after {
     position: relative;
     color: #F9F8F9;
     font-weight: 400;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .links h3::after {
@@ -147,8 +164,7 @@ figure h3::after {
 .contact_crew {
     color: white;
     background-color: #6A5D44;
-    /* box-shadow: 0 4px 8px 0 rgba(76,69,51,0.9); */
-    box-shadow: 0 4px 8px 0 rgba(255,255,255,0.5);
+    box-shadow: 0 0 70px rgba(255,255,255,0.5);
 }
 
 .title .MTUCI_hover:hover {
@@ -156,7 +172,15 @@ figure h3::after {
 }
 
 .color_after::after {
-    background-color: gray;
+    background-color:#E6CFB8;
+}
+
+.card-info-contact::before {
+    background-color: #E6CFB8;
+}
+
+.card-info-contact::after {
+    background-color: #E6CFB8;
 }
 
 .card_hover {
@@ -176,7 +200,15 @@ figure h3::after {
     color: #000;
     /* background-color: rgb(235, 235, 235); */
     background-color: #A1A09A;
-    box-shadow: 0 8px 16px 0 rgba(238,113,23,0.5);
+    box-shadow: 0 0 70px rgba(238,113,23,0.5);
+}
+
+.card-info-bam::after {
+    background-color: #EE7117;
+}
+
+.card-info-bam::before {
+    background-color: #EE7117;
 }
 
 .title .MTUCI_hover_1 {
@@ -210,16 +242,26 @@ figure h3::after {
 /* way crew */
 
 .way_crew {
+    margin: 0;
     background-color: #01143E;
-    box-shadow: 0 8px 16px 0 rgba(181,1,23,0.5);
+    box-shadow: 0 0 70px rgba(50,113,176,0.5);
 }
 
+
 .title .MTUCI_hover_2:hover {
-    color: #B50117;
+    color: #3271B0;
 }
 
 .color_after2::after {
-    background-color: #B50117;
+    background-color: #3271B0;
+}
+
+.card-info-way::after {
+    background-color: #3271B0;
+}
+
+.card-info-way::before {
+    background-color: #3271B0;
 }
 
 .card_hover2 {
@@ -227,13 +269,8 @@ figure h3::after {
 }
 
 .card_hover2:hover {
-    box-shadow: 0 8px 16px 0 rgba(181,1,23,0.5);
+    box-shadow: 0 8px 16px 0 rgba(50,113,176,0.5);
 }
-
-.links .color_after_2::after {
-    background-color: #B50117;
-}
-
 
 
 @media (max-width: 750px) {
