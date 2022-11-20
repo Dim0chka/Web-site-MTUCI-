@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="rso.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4a7b9d628b.js" crossorigin="anonymous"></script>
+    <title>Штаб МТУСИ</title>
+</head>
+<body>
+  <header class="navbar">
+      <div class="container">
+        <nav class="navbar__wrap">
+          <div class="hamb">
+            <div class="hamb__field" id="hamb">
+              <span class="bar"></span> <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </div>
+          <a href="#" class="logo" id="logo">
+              <img width="200" height="80" src="logo/logo_mtuci-01.png" alt="">
+          </a>
+          <ul class="menu" id="menu">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="about.html">Отряды</a></li>
+            <li><a href="rso.html">РСО</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+  </header>
+  <div class="popup" id="popup"></div>
+
+  <main class="main_info3">
+    <div class="container">
+      <h1 style="display: none;"></h1>
+      <script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
+      <div id="vk_groups"></div>
+      <script type="text/javascript">
+        VK.Widgets.Group("vk_groups", {mode: 4, wide: 1, width: 'auto', height: 1000, color1: "222222", color2: "E1E3E6", color3: "5181B8"}, 207674117);
+      </script>
+    </div>
+  </main>
+
+  <aside>
+    <div class="marquee-container">
+      <p class="marquee">
+        СПО «Связь» - ССервО «Контакт» - СОП «БАМ» - ОСД «Путь» - IT ОТРЯД
+      </p>
+    </div>
+  </aside>
+
+  <footer>
+    <div class="container">
+      <div class="flex-footer">
+        <ul class="social">
+          <li class="social_link telegram">
+            <a href="https://t.me/so_mtuci" target="_blank">
+              <i class="fa-brands fa-telegram"></i>
+            </a>
+          </li>
+
+          <li class="social_link vk">
+            <a href="https://vk.com/so.mtuci" target="_blank">
+              <i class="fa-brands fa-vk"></i> 
+            </a>
+          </li>
+        </ul>
+        <nav class="navbar_footer">
+          <ul class="menu1">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="about.html">Отряды</a></li>
+            <li><a href="rso.html">Новости</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
+
+        <p>&copy; Все права защищены | разработчик <a  href="https://github.com/Dim0chka"><b>Dim0chka</b></a></p>
+      </div>
+
+          
+    </div>
+  </footer>
+    
+<script src="app.js"></script>
+</body>
+</html>
