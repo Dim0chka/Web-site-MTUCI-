@@ -1,6 +1,6 @@
-const hamb = document.querySelector("#hamb");
-const popup = document.querySelector("#popup");
-const body = document.body;
+const hamb = document.querySelector("#hamb")
+const popup = document.querySelector("#popup")
+const body = document.body
 
 // Клонируем меню, чтобы задать свои стили для мобильной версии
 const menu = document.querySelector("#menu").cloneNode(1);
@@ -39,7 +39,6 @@ function closeOnClick() {
 }
 
 // slider
-
 document.addEventListener('DOMContentLoaded', function () {
   // инициализация слайдера
   var slider = new SimpleAdaptiveSlider('.slider', {
