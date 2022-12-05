@@ -11,6 +11,7 @@ var WRAPPER_SELECTOR = ".slider__wrapper",
     INDICATOR_ITEM_CLASS_ACTIVE = "slider__indicator_active",
     SWIPE_THRESHOLD = 20,
     TRANSITION_NONE = "transition-none";
+    
 function SimpleAdaptiveSlider(t, i) {
     for (var e in this._$root = document.querySelector(t), this._$wrapper = this._$root.querySelector(WRAPPER_SELECTOR), this._$items = this._$root.querySelector(ITEMS_SELECTOR), this._$itemList = this._$root.querySelectorAll(ITEM_SELECTOR), this._currentIndex = 0, this._minOrder = 0, this._maxOrder = 0, this._$itemWithMinOrder = null, this._$itemWithMaxOrder = null, this._minTranslate = 0, this._maxTranslate = 0, this._direction = "next", this._balancingItemsFlag = !1, this._transform = 0, this._hasSwipeState = !1, this._swipeStartPosX = 0, this._intervalId = null, this._config = {
         loop: !0,
